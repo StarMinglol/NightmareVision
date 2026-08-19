@@ -1,4 +1,4 @@
-package funkin.backend.utils;
+package funkin.utils;
 
 class RandomUtil
 {
