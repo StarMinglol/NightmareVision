@@ -1,6 +1,5 @@
-//System tools by TheLine and StarMing
-//only support windows!!! - THELINE
-package funkin.backend.utils;
+
+package funkin.utils;
 
 import sys.io.File;
 import haxe.io.Bytes;
