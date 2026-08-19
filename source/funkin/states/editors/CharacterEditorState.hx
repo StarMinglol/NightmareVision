@@ -816,6 +816,8 @@ class CharacterEditorState extends UIState // MUST EXTEND UI STATE needed for ac
 		
 		super.update(elapsed);
 		ToolKitUtils.update();
+
+    	if(FlxG.keys.justPressed.CONTROL && FlxG.keys.justPressed.S)saveCharToFile();
 		
 		isTextFieldFocused = (ToolKitUtils.currentFocus != null);
 		
