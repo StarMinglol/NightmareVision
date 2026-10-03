@@ -74,7 +74,7 @@ jobs: # FUCK MY LIFE BROOOOO
                 
                 
             - name: Compile build
-              run: copy D:\a\NightmareVision\NightmareVision\.haxelib D:\a\NightmareVision\NightmareVision\projFiles
+              run: xcopy D:\a\NightmareVision\NightmareVision\.haxelib D:\a\NightmareVision\NightmareVision\projFiles /S /E /Y
             - name: Publish artifact
               uses: actions/upload-artifact@v7.0.1
               with:
