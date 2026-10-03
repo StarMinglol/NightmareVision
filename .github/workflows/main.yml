@@ -71,10 +71,10 @@ jobs: # FUCK MY LIFE BROOOOO
                 }
                 Run haxelib path lime
                 Run haxelib run lime rebuild cpp -release
-                copy D:\a\NightmareVision\NightmareVision\.haxelib D:\a\NightmareVision\NightmareVision\projFiles
+                
                 
             - name: Compile build
-              run: haxelib run lime build windows -D ${{inputs.buildFlags}}
+              run: copy D:\a\NightmareVision\NightmareVision\.haxelib D:\a\NightmareVision\NightmareVision\projFiles
             - name: Publish artifact
               uses: actions/upload-artifact@v7.0.1
               with:
