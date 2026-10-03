@@ -78,7 +78,7 @@ jobs: # FUCK MY LIFE BROOOOO
               uses: actions/upload-artifact@v7.0.1
               with:
                 name: NightmareVision (Windows)
-                path: export/release/windows/bin
+                path: .haxelib
     #
     Linux:
         runs-on: ubuntu-24.04
